@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="font_awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<title>
+		Waxom'not
+	</title>
+
+	<body>
+		<header>
+			<div id="header">
+				<div class="container clear-fix">
+					<div id="logo">
+						<a href="#"></a>
+					</div>
+					<nav id="top-navbar">
+						<ul>
+							<li><a href="#"><i id="navbar-home" class="navbar-icon"></i>Home</a></li>
+							<li><a href="#"><i id="navbar-gallery" class="navbar-icon"></i>Gallery</a></li>
+							<li><a href="#"><i id="navbar-members" class="navbar-icon"></i>Members</a></li>
+							<li><a href="#"><i id="navbar-logout" class="navbar-icon"></i>Logout</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			
+			<div id="main">
+
+				<div id="upload">
+					<div class="container-small">
+						<span id="upload-text">Please select an image from your computer </span>
+						<br>
+
+						<form id="image-upload-form" class="clear-fix" action="#uload-img" method="POST" enctype="multipart/form-data" name="upload-img-form">
+
+							<input id="upfile" type="file" value="upload" onchange="upd_file_name(this)">
+
+
+							<div id="browse-file">
+
+								<span id="file-name"></span>
+
+								<div id="browse-file-button" onclick="getFile()">Browse</div>
+							</div>
+
+							<label id="file-upload-button">
+								Upload image
+								<input type="submit" value='submit'>
+							</label>
+
+
+
+
+
+
+
+
+						</form>
+
+
+
+					</div>
+				</div>
+
+				<div id="images-gallery" class="container clear-fix">
+					
+					
+					<div class="image-box">
+						<a href="#" class="image-inner fas fa-search-plus">
+							<img src="img/box_img.png" alt="some img cool">
+						</a>
+						<div class="image-box-footer clear-fix">
+
+							<div class="image-info clear-fix">
+								<span class="image-name">Lorem Ipsum is simply</span>
+								<a href="#"><i class="fas fa-star image-icon"></i></a>
+							</div>
+
+							<div class="image-share clear-fix">
+								<span class="share">Share</span>
+
+								<a href=""><i class="fab fa-twitter image-icon"></i></a>
+								<a href=""><i class="fab fa-facebook-f image-icon"></i></a>
+								<a href=""><i class="fab fa-pinterest-p image-icon"></i></a>
+								<a href=""><i class="fab fa-tumblr image-icon"></i></a>
+
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="image-box"></div>
+					<div class="image-box"></div>
+					<div class="image-box"></div>
+					<div class="image-box"></div>
+					<div class="image-box"></div>
+					<div class="image-box"></div>
+					<div class="image-box"></div>
+
+				</div>			
+
+			</div>
+
+		</main>
+
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<span id="footer-text">© 2013 Photocage app  powered by cssauthor.com</span>
+				</div>
+
+			</div>
+		</footer>
+	</body>
+
+
+	</html>
