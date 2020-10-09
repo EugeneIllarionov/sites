@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-@import url(../libs/components-font-awesome/css/all.min.css);
+@import url(libs/components-font-awesome/css/all.min.css);
 
 @font-face {
   font-family: "Freestyle Script";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/freestyle script.eot");
-  src: url("../fonts/freestyle script.eot?#iefix") format("embedded-opentype"), url("../fonts/freestyle script.woff") format("woff"), url("../fonts/freestyle script.ttf") format("truetype");
+  src: url("fonts/freestyle script.eot");
+  src: url("fonts/freestyle script.eot?#iefix") format("embedded-opentype"), url("/fonts/freestyle script.woff") format("woff"), url("fonts/freestyle script.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/OpenSans.eot");
-  src: url("../fonts/OpenSans.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans.woff") format("woff"), url("../fonts/OpenSans.ttf") format("truetype");
+  src: url("fonts/OpenSans.eot");
+  src: url("fonts/OpenSans.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans.woff") format("woff"), url("fonts/OpenSans.ttf") format("truetype");
 }
 
 /*!
